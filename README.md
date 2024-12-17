@@ -48,7 +48,7 @@
                         script.src = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button.min.js';
                         script.async = true;
                         script.onload = function() {
-                            ShopifyBuy.UI.onReady(b16adffb30cbacaef263b6c1570fc922).then(function(ui) {
+                            ShopifyBuy.UI.onReady(b33229b8abfa221d145a92dc339e9807).then(function(ui) {
                                 ui.createComponent('product', {
                                     id: 'PRODUCT_ID',  // Product ID uit je Shopify winkel
                                     node: document.getElementById('product-component-1'),
